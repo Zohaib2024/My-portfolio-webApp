@@ -1,7 +1,7 @@
 
-import { link } from 'fs';
+
 import Link from 'next/link';
-import { title } from 'process'
+
 import React from 'react'
 
 interface propsType {

@@ -1,9 +1,9 @@
-import { title } from 'process'
+
 import React from 'react'
 import Heading from './Heading'
 
 import Card from './Card'
-import { link } from 'fs'
+
 
 const Projects = () => {
     const data = [
