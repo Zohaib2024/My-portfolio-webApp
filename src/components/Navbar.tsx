@@ -12,7 +12,7 @@ const Navbar = () => {
     setIsMenuOpen(false);
   };
 
-  const handleScroll = (id:any) => {
+  const handleScroll = (id:string) => {
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
