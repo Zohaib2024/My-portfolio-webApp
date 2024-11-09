@@ -6,7 +6,6 @@ import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Skills from "@/components/Skills";
 import Social from "@/components/Social";
-import Image from "next/image";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
