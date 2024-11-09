@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    
+    <section id="hero">
    <div className='flex flex-row '>
   
     <div className="hidden md:hidden lg:block place-content-center ml-32 mt-10" data-aos="zoom-in-up">
@@ -31,6 +31,7 @@ const Hero = () => {
 
 </div>
     </div>
+    </section>
 
 
   )

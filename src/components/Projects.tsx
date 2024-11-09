@@ -63,6 +63,7 @@ const Projects = () => {
 }
 ]
   return (
+    <section id="Projects">
     <div className='container pt-32'>
          <Heading title='My Projects' />
          <div className='grid grid-10 xl:gap-0 xl:gap-y-10 md:grid-cols-2 lg:gap-x-32 lg:grid-cols-3 place-items-center '>
@@ -77,6 +78,7 @@ const Projects = () => {
            
          </div>
     </div>
+    </section>
    
   )
 }

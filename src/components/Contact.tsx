@@ -4,6 +4,7 @@ import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
   return (
+    <section id='Contact'>
     <div className='pt-32 container'>
         <div className="grid md:grid-cols-2 gap-10 ">
             <div className="space-y-8 ">
@@ -33,6 +34,7 @@ const Contact = () => {
             </div>
         </div>
     </div>
+    </section>
   )
 }
 
